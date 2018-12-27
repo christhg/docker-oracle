@@ -7,3 +7,5 @@ sid: EE
 service name: EE.oracle.docker  
 username: system  
 password: oracle  
+## after pull
+#mkdir /u01/app/oracle/data
