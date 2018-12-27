@@ -1,0 +1,12 @@
+version: '2'
+services:
+  oracle:
+    image: sath89/oracle-ee-11g:latest  #images镜像
+    container_name: oracledb #容器名稱
+    ports: #端口映射
+      - "1521:1521"
+      - "8080:8080"
+    #environment:  #環境變數
+    #command: mkdir /var/opt/mssql/backup  #启动后默认执行的命令
+    volumes:  #掛載本地硬盤map
+      - /u01/app/oracle/data:/u01/app/oracle
