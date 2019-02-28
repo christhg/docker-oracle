@@ -2,7 +2,7 @@ version: '2'
 services:
   oracledb:
     image: sath89/oracle-ee-11g:latest  #images镜像
-    container_name: oracledb2 #容器名稱
+    container_name: oracledb #容器名稱
     ports: #端口映射
       - "1521:1521"
       - "8080:8080"
