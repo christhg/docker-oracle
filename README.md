@@ -9,10 +9,10 @@ username: system
 password: oracle  
 ## after pull
 
-mkdir /u01/app/oracle/data 
-or  
+mkdir /u01/app/oracle/data
+or
 cd /
-tar -xvf oracledb-20181227.tar  
-cd docker-oracle 
-docker-compose up -d  
+tar -xvf oracledb-20181227.tar
+cd docker-oracle
+docker-compose up -d
 
