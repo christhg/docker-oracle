@@ -13,7 +13,7 @@ mkdir tar
 cd tar  
 ## upload oracledb-20181227.tar
 tar -xvf oracledb-20181227.tar  
-mv /u01 /
-cd..
-docker-compose up -d  
+mv /u01 /  
+cd..  
+docker-compose up -d    
 
